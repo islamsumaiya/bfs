@@ -24,8 +24,8 @@ void bfs(int source,vector<vector<int>>&graph,vector<bool>&visited)
 int main()
 {
     int nodes=5;
-    vector<vector<int>>graph(nodes +1);
-    vector<bool>visited(nodes + 1,false);
+    vector<vector<int>>graph(nodes );
+    vector<bool>visited(nodes ,false);
     graph[0]= {1,2};
     graph[1]= {1,2,3};
     graph[2]= {0,1};
